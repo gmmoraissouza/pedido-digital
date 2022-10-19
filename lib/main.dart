@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Cardápio Digital',
+      title: 'Pedido Digital',
       debugShowCheckedModeBanner: false,
       home: const HomeView(),
       theme: theme(),
