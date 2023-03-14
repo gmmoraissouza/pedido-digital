@@ -1,19 +1,12 @@
-# pedido_digital
+# Pedido Digital
 
-Protótipo de um aplicativo que auxilia os funcionários de estabelecimentos a realizarem pedidos de seus clientes.
+#### ⚙ Protótipo de um aplicativo que auxilia os garçons de estabelecimentos a realizarem pedidos de seus clientes.
 
-## Getting Started
+## Sobre o projeto
 
-This project is a starting point for a Flutter application.
+- 💡 Estruturado em _MVC (Models, Views e Controllers)_
+- 🔰 Layout pronto para aplicar 3 métodos funcionais ao projeto, quais são:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# pedido-digital" 
-"# pedido-digital" 
-"# pedido-digital" 
+  - Adicionar o pedido do cliente ao banco de dados da empresa, direcionando-o para a tela da cozinha;
+  - Na cozinha o cozinheiro decide se recusa ou aceita o pedido, direcionando-o à tela do caixa;
+  - O caixa finaliza a conta do cliente, os pedidos são salvos no histórico e a comanda da respectiva mesa utilizada pelo cliente é apagada.
